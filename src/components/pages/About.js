@@ -4,6 +4,8 @@ export default function About() {
       <h1>This is my About page</h1>
       <p>Here we tell you about our company</p>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto veniam laudantium quaerat corporis optio, dignissimos placeat magnam omnis commodi asperiores reiciendis nemo officiis. Debitis, repellat. Ex possimus sequi aperiam ad.</p>
+      {/* <img></img> */}
+      {/* <h3>here must be a contacts</h3> */}
     </div>
   );
 }
