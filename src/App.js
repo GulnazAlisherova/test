@@ -1,12 +1,10 @@
-import './App.css';
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Contacts from "./pages/Contacts";
-import NotFound from "./pages/NotFound";
-import Delivery from "./pages/Delivery";
+import Home from "../src/components/pages/Home";
+import About from "./components/pages/About";
+import Contacts from "./components/pages/Contacts";
+import Delivery from "./components/pages/Delivery";
+import NotFound from "./components/pages/NotFound";
 
-import { Route, Route } from "";
 function App() {
   return (
     <div className="App">
