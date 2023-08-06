@@ -4,19 +4,22 @@ import About from "./components/pages/About";
 import Contacts from "./components/pages/Contacts";
 import Delivery from "./components/pages/Delivery";
 import NotFound from "./components/pages/NotFound";
+import Layout from "./components/Layout/Layout";
 
 function App() {
   return (
     <div className="App">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contacts" element={<Contacts />} />
-        <Route path="/delivery" element={<Delivery />} />
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contacts" element={<Contacts />} />
+          <Route path="/delivery" element={<Delivery />} />
 
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+          <Route path="*" element={<NotFound />} />
+        </Routes>
 
+      </Layout>
     </div>
   );
 }
