@@ -2,7 +2,7 @@ import { useState } from "react";
 import Auth from "../Auth/Auth";
 import CartLink from "../CartLink/CartLink";
 import CategoryList from "../CategoryList/CategoryList";
-// import Logo from "../Logo/Logo";
+import Logo from "../Logo/Logo";
 import Nav from "../Nav/Nav";
 import "./Layout.css";
 import NavToggle from "../NavToggle/NavToggle";
