@@ -10,6 +10,10 @@ export default function CartButton({ productId }) {
   }
 
   return (
-    <button className={classes.CartButton} onClick={onAddToCart}>Add to cart</button>
+    <button
+     className={classes.CartButton} 
+     onClick={onAddToCart}>
+      Add to cart
+    </button>
   );
 }
